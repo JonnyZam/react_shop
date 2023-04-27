@@ -1,8 +1,14 @@
 import React from 'react';
-import '../styles/global.scss';
+import '../styles/global.css';
+import Layout from '../container/Layout';
+import Login from '../container/Login';
 
 const App = () => {
-    return (<h1>Hola Jonny</h1>);
+    return (
+        <Layout>
+            <Login />
+        </Layout>
+    );
 }
 
 export default App;
