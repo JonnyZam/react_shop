@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Home from '../pages/Home';
 import Layout from '../container/Layout';
-import Login from '../container/Login';
+import NewPassword from '../container/NewPassword';
 import RecoveryPassword from '../container/RecoveryPassword';
 import NotFound from '../pages/NotFound';
 
@@ -15,7 +15,7 @@ const App = () => {
             <Layout>
                 <Routes>
                     <Route path="/" element={<Home />}/>  
-                    <Route path="/login" element={<Login />}/>
+                    <Route path="/new-password" element={<NewPassword />}/>
                     <Route path="/recovery-password" element={<RecoveryPassword />}/>
                     <Route path="*" element={<NotFound />}/>
                 </Routes>
