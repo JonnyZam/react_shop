@@ -3,10 +3,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Home from '../pages/Home';
 import Layout from '../container/Layout';
-import Login from '../container/Login';
-import MyAccount from '../container/MyAccount';
-import NewPassword from '../container/NewPassword';
-import RecoveryPassword from '../container/RecoveryPassword';
+import NewPassword from '../pages/NewPassword';
+import PasswordRecovery from '../pages/PasswordRecovery';
 import NotFound from '../pages/NotFound';
 
 import '../styles/global.css';
@@ -16,11 +14,9 @@ const App = () => {
         <BrowserRouter>
             <Layout>
                 <Routes>
-                    <Route path="/" element={<Home />}/>
-                    <Route path="/login" element={<Login />}/> 
-                    <Route path="/my-account" element={<MyAccount />}/>  
+                    <Route path="/" element={<Home />}/> 
                     <Route path="/new-password" element={<NewPassword />}/>
-                    <Route path="/recovery-password" element={<RecoveryPassword />}/>
+                    <Route path="/password-recovery" element={<PasswordRecovery />}/>
                     <Route path="*" element={<NotFound />}/>
                 </Routes>
             </Layout>
