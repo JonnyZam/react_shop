@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '@styles/Header.scss';
+
 import Menu from '@components/Menu';
 import menu from '@icons/icon_menu.svg';
 import logo from '@logos/logo_yard_sale.svg';
@@ -14,7 +15,7 @@ const Header = () => {
 
 	return (
 		<nav>
-			<img src={menu} alt="menu" className="menu" />
+			<img src={menu} alt="menu" className="menu-logo" />
 			<div className="navbar-left">
 				<img src={logo} alt="logo" className="nav-logo" />
 				<ul>
