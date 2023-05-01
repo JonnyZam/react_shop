@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import '@styles/Header.scss';
 
 import Menu from '@components/Menu';

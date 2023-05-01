@@ -1,10 +1,14 @@
 import React from 'react';
+
 import '@styles/CreateAccount.scss';
+
+import logo from '@logos/logo_yard_sale.svg';
 
 const CreateAccount = () => {
 	return (
 		<div className="CreateAccount">
 			<div className="CreateAccount-container">
+				<img src={logo} alt="logo" className="Signup-logo" />	
 				<h1 className="title">My account</h1>
 				<form action="/" className="form">
 					<div>
