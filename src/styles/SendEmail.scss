@@ -10,22 +10,14 @@
 	width: 300px;
 	justify-items: center;
 }
-.Email-logo {
-	width: 150px;
-	margin-bottom: 48px;
-	justify-self: center;
-	display: none;
-}
 .SendEmail-title {
 	font-size: var(--lg);
-	margin-bottom: 40px;
 	text-align: center;
 }
 .subtitle {
 	color: var(--very-light-pink);
 	font-size: var(--md);
 	font-weight: 300;
-	margin-top: 0;
 	margin-bottom: 32px;
 	text-align: center;
 }
@@ -68,7 +60,7 @@
 	margin-bottom: 30px;
 }
 @media (max-width: 640px) {
-	.Email-logo {
+	.logo {
 		display: block;
 	}
 }

@@ -8,7 +8,7 @@ const CreateAccount = () => {
 	return (
 		<div className="CreateAccount">
 			<div className="CreateAccount-container">
-				<img src={logo} alt="logo" className="Signup-logo" />	
+				<img src={logo} alt="logo" className="logo" />	
 				<h1 className="title">My account</h1>
 				<form action="/" className="form">
 					<div>
