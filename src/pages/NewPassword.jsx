@@ -9,7 +9,7 @@ const NewPassword = () => {
 		<div className="NewPassword">
 			<div className="NewPassword-container">
 				<img src={logo} alt="logo" className="NewPassword-logo" />
-				<h1 className="title">Create a new password</h1>
+				<h1 className="NewPassword-title">Create a new password</h1>
 				<p className="subtitle">Enter a new passwrd for yue account</p>
 				<form action="/" className="form">
 					<label for="password" className="label">Password</label>
