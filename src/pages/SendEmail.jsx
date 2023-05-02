@@ -8,7 +8,7 @@ import email from '@icons/email.svg';
 const SendEmail = () => {
 	return (
 		<div className="SendEmail">
-			<div className="form-container">
+			<div className="SendEmail-container">
 				<img src={logo} alt="logo" className="logo" />
 				<h1 className="SendEmail-title">Email has been sent!</h1>
 				<p className="subtitle">Please check your inbox for instructions on how to reset the password</p>
