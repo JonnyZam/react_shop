@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 
 import '@styles/ProductItem.scss';
 
-import addToCart from '@icons/bt_add_to_cart.svg';
+import addToCartImage from '@icons/bt_add_to_cart.svg';
 
-const ProductItem = ({product}) => {
-	const [cart, setcart] = useState([]);
+const ProductItem = ({ product }) => {
+	const [cart, setCart] = useState([]);
 
-	const handleClick = () =>{
-		setcart([]);
+	const handleClick = () => {
+		setCart([]);
 	}
 
 	return (
@@ -20,7 +20,7 @@ const ProductItem = ({product}) => {
 					<p>{product.title}</p>
 				</div>
 				<figure onClick={handleClick}>
-					<img src={addToCart} alt="" />
+					<img src={addToCartImage} alt="" />
 				</figure>
 			</div>
 		</div>
