@@ -22,10 +22,12 @@ const MyOrder = () => {
 				<img src={flechita} alt="arrow" />
 				<p className="title">My order</p>
 			</div>
-			<div className="my-order-content">
-				{state.cart.map((product, index) => (
-					<OrderItem product={product} key={index} />
-				))}
+			<div className="MyOrder-container">
+				<div className="seccion-scroll"> 
+					{state.cart.map((product, index) => (
+						<OrderItem product={product} key={index} indexValue={index} />
+					))}
+				</div>
 				<div className="order">
 					<p>
 						<span>Total</span>
